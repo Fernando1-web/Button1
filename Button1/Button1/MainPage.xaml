@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Button1.MainPage">
+
+    <StackLayout Margin="20, 35, 20, 20" Spacing="20">
+        <Label Text="Hola profe, ya se puede hacer esto sin problemas" TextColor="Aqua" FontSize="22" FontAttributes="Italic"/>
+        <Button Text="Presióname"
+                TextColor="Black"
+                BackgroundColor="GhostWhite"
+                BorderColor="Cyan"
+                BorderWidth="1"
+                CornerRadius="10"
+                WidthRequest="100"
+                HeightRequest="60"
+                Clicked="Button_Clicked"
+                FontAttributes="Italic"/>
+    </StackLayout>
+</ContentPage>
